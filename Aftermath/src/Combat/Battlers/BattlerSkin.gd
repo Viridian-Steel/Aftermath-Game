@@ -21,7 +21,7 @@ func iniitialize():
             break
 
 func move_forwards():
-    var direction = Vector2(-1.0, 0.0) if owner.party_member else Vector2(1.0, 0.0)
+    var direction = Vector2(1.0, 0.0) if owner.party_member else Vector2(-1.0, 0.0)
     tween.interpolate_property(
         self,
         'position',
