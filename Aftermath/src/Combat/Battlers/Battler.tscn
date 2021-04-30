@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Combat/Battlers/Battler.gd" type="Script" id=1]
+[ext_resource path="res://src/Combat/Battlers/BattlerSkin.gd" type="Script" id=2]
+
+[node name="Battler" type="Position2D"]
+script = ExtResource( 1 )
+
+[node name="Skin" type="Position2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="Tween" type="Tween" parent="Skin"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Skin"]
+
+[node name="Actions" type="Node" parent="."]
+
+[node name="TargetAnchor" type="Position2D" parent="."]
+
+[node name="Bars" type="VBoxContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Drops" type="Node" parent="."]
+
+[node name="AI" type="Node" parent="."]
