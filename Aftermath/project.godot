@@ -49,6 +49,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/Combat/Battlers/Drops.gd"
 }, {
+"base": "",
+"class": "FmodNative",
+"language": "NativeScript",
+"path": "res://addons/fmod/Fmod.gdns"
+}, {
 "base": "Node",
 "class": "Formation",
 "language": "GDScript",
@@ -103,6 +108,7 @@ _global_script_class_icons={
 "CombatAction": "",
 "CombatArena": "",
 "Drops": "",
+"FmodNative": "",
 "Formation": "",
 "GrowthStats": "",
 "Hit": "",
@@ -173,10 +179,10 @@ sprint={
 
 [rendering]
 
-quality/2d/use_nvidia_rect_flicker_workaround=true
 threads/thread_model=2
-quality/filters/anisotropic_filter_level=16
 quality/shadows/filter_mode=2
+quality/filters/anisotropic_filter_level=16
 quality/subsurface_scattering/quality=2
 quality/voxel_cone_tracing/high_quality=true
 quality/filters/msaa=2
+quality/2d/use_nvidia_rect_flicker_workaround=true
