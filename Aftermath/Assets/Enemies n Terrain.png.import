@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Enemies n Terrain.png-33224076874dfde1324b6346b04b25fb.stex"
+path="res://.import/Enemies n Terrain.png-2c2c0c028a7ff554a6ea6a9b076e033d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Enemies n Terrain.png"
-dest_files=[ "res://.import/Enemies n Terrain.png-33224076874dfde1324b6346b04b25fb.stex" ]
+source_file="res://Assets/Enemies n Terrain.png"
+dest_files=[ "res://.import/Enemies n Terrain.png-2c2c0c028a7ff554a6ea6a9b076e033d.stex" ]
 
 [params]
 

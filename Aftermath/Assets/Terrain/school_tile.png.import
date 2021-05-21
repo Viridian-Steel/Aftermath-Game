@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/school_tile.png-f14a963b2fe9b8ca1f8768c330f9d44f.stex"
+path="res://.import/school_tile.png-491fb0122d66ecb49a33f3768a48b576.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Terrain/school_tile.png"
-dest_files=[ "res://.import/school_tile.png-f14a963b2fe9b8ca1f8768c330f9d44f.stex" ]
+source_file="res://Assets/Terrain/school_tile.png"
+dest_files=[ "res://.import/school_tile.png-491fb0122d66ecb49a33f3768a48b576.stex" ]
 
 [params]
 

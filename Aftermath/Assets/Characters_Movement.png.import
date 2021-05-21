@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Characters_Movement.png-cc50bfeb06aefc4023f2c003c035b9ca.stex"
+path="res://.import/Characters_Movement.png-2c422318df197190b956e97ba1ea0998.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Characters_Movement.png"
-dest_files=[ "res://.import/Characters_Movement.png-cc50bfeb06aefc4023f2c003c035b9ca.stex" ]
+source_file="res://Assets/Characters_Movement.png"
+dest_files=[ "res://.import/Characters_Movement.png-2c422318df197190b956e97ba1ea0998.stex" ]
 
 [params]
 
