@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://src/Combat/Battlers/Battler.gd" type="Script" id=1]
 [ext_resource path="res://src/Combat/Battlers/BattlerSkin.gd" type="Script" id=2]
+[ext_resource path="res://src/Combat/Battlers/Actions/Attack.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/Combat/Battlers/Skills/Skill.tscn" type="PackedScene" id=4]
 
 [node name="Battler" type="Position2D"]
 script = ExtResource( 1 )
@@ -15,6 +17,8 @@ script = ExtResource( 2 )
 
 [node name="Actions" type="Node" parent="."]
 
+[node name="Attack" parent="Actions" instance=ExtResource( 3 )]
+
 [node name="TargetAnchor" type="Position2D" parent="."]
 
 [node name="Bars" type="VBoxContainer" parent="."]
@@ -23,6 +27,8 @@ margin_bottom = 40.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Skills" parent="." instance=ExtResource( 4 )]
 
 [node name="Drops" type="Node" parent="."]
 
