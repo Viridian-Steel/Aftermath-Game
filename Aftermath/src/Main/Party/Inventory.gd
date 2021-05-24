@@ -2,7 +2,7 @@ extends Reference
 
 class_name Inventory
 
-export (int) var MAX_MONEY = 9999
+export (int) var MAX_COINS = 9999
 var coins: int = 0
 
 var content = {}
@@ -40,7 +40,7 @@ func remove_coins(amount: int) -> void:
 func get_consumables() -> Array:
     var consumable: Array
     for item in content.keys():
-        if item is ConsumableItem:
+        if item.isConsumable:
             consumable.append(item)
     return consumable
     
