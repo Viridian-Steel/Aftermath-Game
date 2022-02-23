@@ -2,7 +2,7 @@ extends Node2D
 
 class_name CombatArena
 
-const BattlerNode = preload("res://src/combat/battlers/Battler.tscn")
+const BattlerNode = preload("res://src/Combat/Battlers/Battler.tscn")
 
 onready var turn_queue: TurnQueue = $TurnQueue
 onready var interface = $CombatInterface
@@ -12,7 +12,7 @@ var active: bool = false
 var party: Array = []
 var initial_formation: Formation
 
-# TODO: Refactor and clean up this script
+# TODO: Refactor and clean up this script (Wut lmao?)
 # sent when the battler is starting to end (before battle_completed)
 signal battle_ends
 # sent when battle is completed, contains status updates for the party
@@ -87,7 +87,7 @@ func battle_end():
     if player_won:
         emit_signal("victory")
         yield(rewards.on_battle_completed(), "completed")
-        emit_signal("battle_completed")
+        emit_signal("battle_completed") #what gets this signal???
     else:
         emit_signal("game_over")
 
