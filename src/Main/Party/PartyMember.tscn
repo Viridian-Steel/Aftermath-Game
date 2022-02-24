@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Combat/Battlers/Battler.tscn" type="PackedScene" id=1]
+
+[node name="PartyMember" type="Node2D" groups=[
+"save",
+]]
+
+[node name="Battler" parent="." instance=ExtResource( 1 )]
+
+[editable path="Battler"]
